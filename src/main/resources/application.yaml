@@ -9,3 +9,7 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: https://accounts.google.com
+
+#endereço para criar credentials no google (https://console.cloud.google.com/apis/credentials)
+#endereço da aplicação adicionado na credential , url de redirecionamento autorizados (http://localhost://login/oauth2/code/google)
+          
